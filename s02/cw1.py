@@ -6,5 +6,6 @@ for i in range(3):
     age_list.sort()
 max_age = age_list[-1]
 min_age = age_list[0]
+a =123
 
 print(f'maximum age is {max_age} and minimum age is {min_age}')
