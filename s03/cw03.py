@@ -12,7 +12,7 @@ for numbers in range(a, b):
         if numbers % i == 0:
             count = False
     
-    if count == True:
+    if count:
         prime_numbers.append(numbers)
 
 
