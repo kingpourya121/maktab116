@@ -6,11 +6,14 @@ prime_numbers = []
 
 
 for numbers in range(a, b):
-    count = 0
+    count = True
+    
     for i in range(2, numbers):
         if numbers % i == 0:
-            count += 1
-    if count == 0:
+            count = False
+    
+    if count == True:
         prime_numbers.append(numbers)
+
 
 print(prime_numbers)
